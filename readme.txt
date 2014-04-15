@@ -1,17 +1,18 @@
 ﻿=== CMS2CMS: Automated vBulletin to WordPress Migration  ===
 Contributors: cms2cms
 Tags: vbulletin to wordpress, vbulletin to wordpress mirgation, convert vbulletin to wordpress, migrate vbulletin to wordpress
+
 Requires at least: 3.0.0
 Tested up to: 3.8
 Stable tag: 3.6.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Move your website content from vBulletin to WordPress quickly and easily without programming skills.
+Move your website content from vBulletin to WordPress (bbPress) quickly and easily without programming skills.
 
 == Description ==
 
-CMS2CMS is an automated service which will help you to migrate your data from vBulletin to WordPress. 
+CMS2CMS is an automated service which will help you to migrate your data from vBulletin to WordPress (bbPress). 
 
 = You will be able to convert the following items: =
 * Forums/Categories
@@ -36,12 +37,12 @@ CMS2CMS is an automated service which will help you to migrate your data from vB
 - clear WordPress data before migration
 
 
-**Note.** *This plugin installs connection bridge on WordPress website, which is necessary for data exchange between vBulletin and WordPress websites. After activation, you’ll be redirected to CMS2CMS website in order to complete the migration.*
+**Note.** *This plugin installs connection bridge on WordPress website, which is necessary for data exchange between vBulletin and WordPress (bbPress) websites. After activation, you’ll be redirected to CMS2CMS website in order to complete the migration.*
 
 **Website design (styles, themes) isn’t migrated.**
 
 = Steps to Take before Migration =
-1. Install WordPress and make sure that vBulletin and WordPress websites are available online.
+1. Install WordPress and bbPress. Make sure that vBulletin and WordPress websites are available online.
 1. Have vBulletin website FTP access details at hand (host, username, password) - you use them to install connection bridge on vBulletin website.
 1. Set up custom URL structure for WordPress (it should be set before the migration for internal links to work correctly, if you change them after migration, site navigation will be broken).
 
