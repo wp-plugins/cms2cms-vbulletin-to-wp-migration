@@ -288,7 +288,11 @@
             });
 
             // Send the event
-            cms2cmsWrapper.on('click', '[data-log-this]', function(e) {
+            cms2cmsWrapper.find('[data-log-this]').not('input,textarea,select').on('click', function(e) {
+                cms2cms.pushEvent( $(this).data('log-this') );
+            });
+
+            cms2cmsWrapper.on('blur', 'input[data-log-this], textarea[data-log-this], select[data-log-this]', function(e) {
                 cms2cms.pushEvent( $(this).data('log-this') );
             });
 

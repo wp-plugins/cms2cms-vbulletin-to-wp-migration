@@ -95,7 +95,9 @@ $currentPluginUrl = plugin_dir_url( __FILE__ );
                                 <label for="cms2cms-user-email"><?php $viewProvider->_e('Email:', 'cms2cms-migration');?></label>
                             </th>
                             <td>
-                                <input type="text" id="cms2cms-user-email" name="email" value="<?php echo $dataProvider->getUserEmail() ?>" class="regular-text"/>
+                                <input type="text" id="cms2cms-user-email" name="email" value="<?php echo $dataProvider->getUserEmail() ?>"
+                                       data-log-this="Login Entered"
+                                       class="regular-text"/>
                             </td>
                         </tr>
                         <tr valign="top">
@@ -103,7 +105,9 @@ $currentPluginUrl = plugin_dir_url( __FILE__ );
                                 <label for="cms2cms-user-password"><?php $viewProvider->_e('Password:', 'cms2cms-migration'); ?></label>
                             </th>
                             <td>
-                                <input type="password" id="cms2cms-user-password" name="password" value="" class="regular-text"/>
+                                <input type="password" id="cms2cms-user-password" name="password" value=""
+                                       data-log-this="Password Entered"
+                                       class="regular-text"/>
                                 <p class="description for__cms2cms_accordeon_item_register">
                                     <?php $viewProvider->_e('Minimum 6 characters', 'cms2cms-migration'); ?>
                                 </p>
@@ -117,7 +121,7 @@ $currentPluginUrl = plugin_dir_url( __FILE__ );
                     <input type="hidden" id="cms2cms-bridge-url" name="targetBridgePath" value="<?php echo $cms2cms_bridge_url; ?>"/>
                     <input type="hidden" id="cms2cms-access-key" name="accessKey" value="<?php echo $cms2cms_access_key; ?>"/>
                     <input type="hidden" name="termsOfService" value="1">
-                    <input type="hidden" name="peioaj" value="">
+                    <input type="hidden" name="jklsdfl" value="">
                     <div class="error_message"></div>
 
                             <button
@@ -171,12 +175,14 @@ $currentPluginUrl = plugin_dir_url( __FILE__ );
                             $viewProvider->getPluginSourceName()
                         ); ?>
                         <br/>
-                        <input type="text" name="sourceUrl" value="" class="regular-text" placeholder="<?php
-                            echo sprintf(
-                                $viewProvider->__('http://your_%s_website.com/', 'cms2cms-migration'),
-                                strtolower($viewProvider->getPluginSourceType())
-                            );
-                        ?>"/>
+                        <input type="text" name="sourceUrl" value="" class="regular-text"
+                               data-log-this="Source Url Entered"
+                               placeholder="<?php
+                                    echo sprintf(
+                                        $viewProvider->__('http://your_%s_website.com/', 'cms2cms-migration'),
+                                        strtolower($viewProvider->getPluginSourceType())
+                                    );
+                                ?>"/>
                         <input type="hidden" name="sourceType" value="<?php echo $viewProvider->getPluginSourceType(); ?>" />
                         <input type="hidden" name="targetUrl" value="<?php echo $cms2cms_target_url;?>" />
                         <input type="hidden" name="targetType" value="<?php echo $viewProvider->getPluginTargetType(); ?>" />
