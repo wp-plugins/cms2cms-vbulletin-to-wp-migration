@@ -34,12 +34,12 @@ class CmsPluginView
 
     public function getPluginSourceName()
     {
-        return $this->__('VBULLETIN', 'cms2cms-mirgation');
+        return $this->__('Vbulletin', 'cms2cms-mirgation');
     }
 
     public function getPluginSourceType()
     {
-        return 'VBULLETIN';
+        return 'Vbulletin';
     }
 
     public function getPluginTargetName()

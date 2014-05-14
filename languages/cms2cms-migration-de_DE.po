@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: CMS2CMS VBULLETIN to WordPress\n"
+"Project-Id-Version: CMS2CMS Vbulletin to WordPress\n"
 "POT-Creation-Date: 2013-06-21 12:38+0200\n"
 "PO-Revision-Date: 2013-07-08 12:28+0200\n"
 "Last-Translator: cms2cms <dev@cms2cms.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../cms2cms-wordpress-to-vbulletin.php:35
-msgid "VBULLETIN"
+msgid "Vbulletin"
 msgstr ""
 
 #: ../cms2cms-wordpress-to-vbulletin.php:41
@@ -141,12 +141,12 @@ msgstr "Migration starten"
 #: ../ui.php:227
 msgid ""
 "CMS2CMS.com is the one-of-its kind tool for fast, accurate and trouble-free "
-"website migration from VBULLETIN to WordPress. Just a few mouse clicks - and "
-"your VBULLETIN articles, categories, images, users, comments, internal links "
+"website migration from Vbulletin to WordPress. Just a few mouse clicks - and "
+"your Vbulletin articles, categories, images, users, comments, internal links "
 "etc are safely delivered to the new WordPress website."
 msgstr ""
 "CMS2CMS.com ist das Werkzeug für schnelle, präzise und problemlose Migration "
-"von VBULLETIN auf WordPress. Nur ein paar Mausklicks - und Ihre VBULLETIN Artikel, "
+"von Vbulletin auf WordPress. Nur ein paar Mausklicks - und Ihre Vbulletin Artikel, "
 "Kategorien, Bilder, Benutzer, Kommentare, interne Links usw. auf die neue "
 "WordPress-Website migriert werden."
 
