@@ -1,7 +1,6 @@
 ﻿=== CMS2CMS: Automated vBulletin to WordPress Migration  ===
 Contributors: cms2cms
-Tags: vbulletin to wordpress, vbulletin to wordpress mirgation, convert vbulletin to wordpress, migrate vbulletin to wordpress
-
+Tags: vbulletin to wordpress, vbulletin to wordpress migration, convert vbulletin to wordpress, migrate vbulletin to wordpress, posts, images, plugin
 Requires at least: 3.0.0
 Tested up to: 3.9.1
 Stable tag: 3.6.2
