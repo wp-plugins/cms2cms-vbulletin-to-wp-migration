@@ -13,6 +13,12 @@ Move your website content from vBulletin to WordPress (bbPress) quickly and easi
 
 CMS2CMS is an automated service which will help you to migrate your data from vBulletin to WordPress (bbPress). 
 
+* *There is Free Demo available (migration of limited number of threads, users, posts).*
+* *Full Migration starts from $39.*
+
+= Video =
+[youtube https://www.youtube.com/watch?v=ANHsOaGvlBs]
+
 = You will be able to convert the following items: =
 * Forums/Categories
 * Posts/Replies
@@ -46,8 +52,6 @@ CMS2CMS is an automated service which will help you to migrate your data from vB
 1. Set up custom URL structure for WordPress (it should be set before the migration for internal links to work correctly, if you change them after migration, site navigation will be broken).
 
 For more information follow this link: http://www.cms2cms.com/supported-cms/vbulletin-to-wordpress-migration/. 
-
-
 
 == Installation ==
 
