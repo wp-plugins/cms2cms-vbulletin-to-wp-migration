@@ -51,6 +51,12 @@ CMS2CMS is an automated service which will help you to migrate your data from vB
 1. Have vBulletin website FTP access details at hand (host, username, password) - you use them to install connection bridge on vBulletin website.
 1. Set up custom URL structure for WordPress (it should be set before the migration for internal links to work correctly, if you change them after migration, site navigation will be broken).
 
+Our Support Team is available via phone, Live Chat and Email (Technical support) during the following hours:
+Phone support – 24 hours a day, Monday – Friday
+Live Chat support – 24 hours a day, Monday – Friday
+Technical support – from 11 am to 7 pm GMT +2, Monday – Friday
+
+
 For more information follow this link: http://www.cms2cms.com/supported-cms/vbulletin-to-wordpress-migration/?utm_source=vBulletin&utm_medium=Link&utm_campaign=WordPress_plugins. 
 
 == Installation ==
