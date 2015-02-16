@@ -27,7 +27,7 @@ CMS2CMS is an automated service which will help you to migrate your data from vB
 * Tags
 * Polls
 
-*Supported WordPress versions:* 3.x (new software versions are constantly being added).
+*Supported WordPress versions:* 4.x (new software versions are constantly being added).
 
 = Why CMS2CMS? =
 
