@@ -4362,7 +4362,7 @@ class Bridge_Module_Cms_dle_dle extends Bridge_Module_Cms_Abstract
 
     public function detectExtensions()
     {
-        return array();
+        return array();//empty for now
     }
 }
 
